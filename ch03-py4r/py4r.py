@@ -1,6 +1,9 @@
 # Python & R for the Modern Data Scientist
 # Companion script to Chapter 3: Python for R Users
 
+#%%
+print('Hello world!')
+
 # import an entire library
 import math # Functions beyond the basic maths
 
@@ -87,3 +90,5 @@ print(aov_table)
 # Tukey HSD
 from statsmodels.stats.multicomp import pairwise_tukeyhsd
 print(pairwise_tukeyhsd(plant_growth['weight'], plant_growth['group']))
+
+# %%
